@@ -1,0 +1,25 @@
+//Import bootstrap-sprockets
+		@import "bootstrap-sprockets";
+
+
+		// Import slate variables
+		@import "bootswatch/lumen/variables";
+
+		// Then bootstrap itself
+		@import "bootstrap";
+
+		// Bootstrap body padding for fixed navbar
+		body { padding-top: 50px; }
+
+		// And finally bootswatch style itself
+		@import "bootswatch/lumen/bootswatch";
+		
+		// Import awesome checkbox code
+		@import "awesome-bootstrap-checkbox";
+		
+		// Import awesome checkbox code
+		@import "bootstrap-datetimepicker";
+		
+		// Whatever application styles you have go last
+		@import "base";	
+	
